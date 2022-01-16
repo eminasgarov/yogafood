@@ -1,0 +1,543 @@
+[
+{
+    "model": "blogs.blog",
+    "pk": 1,
+    "fields": {
+        "blog_title_ru": "Lorem Ipsum",
+        "blog_title_az": "Lorem Ipsum",
+        "blog_title_en": "",
+        "blog_brief_ru": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrice",
+        "blog_brief_az": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrice",
+        "blog_brief_en": "",
+        "blog_description_ru": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros. Nullam nec pharetra risus.</p>",
+        "blog_description_az": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros. Nullam nec pharetra risus.</p>",
+        "blog_description_en": "",
+        "blog_photo": "recipes/2022/01/16/blog.jpg",
+        "blog_photo_1": "recipes/2022/01/16/photo1.jpg",
+        "blog_photo_2": "recipes/2022/01/16/photo1_cMTWpAM.jpg",
+        "blog_photo_3": "recipes/2022/01/16/photo1_GGTCTv0.jpg",
+        "blog_photo_4": "recipes/2022/01/16/photo1_YyT4SLx.jpg",
+        "blog_photo_5": "recipes/2022/01/16/photo1_zvc5Sni.jpg",
+        "is_featured": false,
+        "created_date": "2022-01-16T15:43:22.611Z"
+    }
+},
+{
+    "model": "blogs.blog",
+    "pk": 2,
+    "fields": {
+        "blog_title_ru": "Lorem Ipsum A",
+        "blog_title_az": "Lorem Ipsum A",
+        "blog_title_en": "",
+        "blog_brief_ru": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrica",
+        "blog_brief_az": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrica",
+        "blog_brief_en": "",
+        "blog_description_ru": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros. Nullam nec pharetra risus.</p>",
+        "blog_description_az": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros. Nullam nec pharetra risus.</p>",
+        "blog_description_en": "",
+        "blog_photo": "recipes/2022/01/16/photo_XiocOJT.jpg",
+        "blog_photo_1": "recipes/2022/01/16/blog1.jpg",
+        "blog_photo_2": "recipes/2022/01/16/blog1_LOAc5Wd.jpg",
+        "blog_photo_3": "recipes/2022/01/16/blog1_oiznM8Z.jpg",
+        "blog_photo_4": "recipes/2022/01/16/blog1_ZJBP5te.jpg",
+        "blog_photo_5": "recipes/2022/01/16/blog1_dmFlOLZ.jpg",
+        "is_featured": false,
+        "created_date": "2022-01-16T15:44:49.764Z"
+    }
+},
+{
+    "model": "blogs.blog",
+    "pk": 3,
+    "fields": {
+        "blog_title_ru": "Lorem Ipsum B",
+        "blog_title_az": "Lorem Ipsum B",
+        "blog_title_en": "",
+        "blog_brief_ru": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultricb",
+        "blog_brief_az": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultricb",
+        "blog_brief_en": "",
+        "blog_description_ru": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros. Nullam nec pharetra risus.</p>",
+        "blog_description_az": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros. Nullam nec pharetra risus.</p>",
+        "blog_description_en": "",
+        "blog_photo": "recipes/2022/01/16/blog2.jpg",
+        "blog_photo_1": "recipes/2022/01/16/photo1_LaIgwAV.jpg",
+        "blog_photo_2": "recipes/2022/01/16/photo1_CAE44dv.jpg",
+        "blog_photo_3": "recipes/2022/01/16/photo1_yitR9f3.jpg",
+        "blog_photo_4": "recipes/2022/01/16/photo1_QIJOryF.jpg",
+        "blog_photo_5": "recipes/2022/01/16/photo1_Ri3MouB.jpg",
+        "is_featured": false,
+        "created_date": "2022-01-16T15:45:54.898Z"
+    }
+},
+{
+    "model": "blogs.blog",
+    "pk": 4,
+    "fields": {
+        "blog_title_ru": "Lorem Ipsum C",
+        "blog_title_az": "Lorem Ipsum C",
+        "blog_title_en": "",
+        "blog_brief_ru": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultricc",
+        "blog_brief_az": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultricc",
+        "blog_brief_en": "",
+        "blog_description_ru": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros. Nullam nec pharetra risus.</p>",
+        "blog_description_az": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros. Nullam nec pharetra risus.</p>",
+        "blog_description_en": "",
+        "blog_photo": "recipes/2022/01/16/blog3.jpg",
+        "blog_photo_1": "recipes/2022/01/16/photo1_UIILk0a.jpg",
+        "blog_photo_2": "recipes/2022/01/16/photo1_PuZgOBv.jpg",
+        "blog_photo_3": "recipes/2022/01/16/photo1_Tbg1OO2.jpg",
+        "blog_photo_4": "recipes/2022/01/16/photo1_gulqe5c.jpg",
+        "blog_photo_5": "recipes/2022/01/16/photo1_GpX6pso.jpg",
+        "is_featured": false,
+        "created_date": "2022-01-16T15:46:37.709Z"
+    }
+},
+{
+    "model": "recipes.recipe",
+    "pk": 1,
+    "fields": {
+        "recipe_title_ru": "Lorem Ipsum",
+        "recipe_title_az": "Lorem Ipsum",
+        "recipe_title_en": "",
+        "recipe_brief_ru": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrice",
+        "recipe_brief_az": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrice",
+        "recipe_brief_en": "",
+        "recipe_description_ru": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros. Nullam nec pharetra risus.</p>",
+        "recipe_description_az": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros. Nullam nec pharetra risus.</p>",
+        "recipe_description_en": "",
+        "recipe_photo": "recipes/2022/01/16/food1.jpg",
+        "recipe_photo_1": "recipes/2022/01/16/photo.jpg",
+        "recipe_photo_2": "recipes/2022/01/16/photo_1mk7Qdo.jpg",
+        "recipe_photo_3": "recipes/2022/01/16/photo_Qq2xpQF.jpg",
+        "recipe_photo_4": "recipes/2022/01/16/photo_4sXNPO5.jpg",
+        "recipe_photo_5": "recipes/2022/01/16/photo_EkNbcKQ.jpg",
+        "is_featured": false,
+        "created_date": "2022-01-16T15:32:40.776Z"
+    }
+},
+{
+    "model": "recipes.recipe",
+    "pk": 2,
+    "fields": {
+        "recipe_title_ru": "Lorem Ipsum A",
+        "recipe_title_az": "Lorem Ipsum A",
+        "recipe_title_en": "",
+        "recipe_brief_ru": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrica",
+        "recipe_brief_az": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrica",
+        "recipe_brief_en": "",
+        "recipe_description_ru": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros. Nullam nec pharetra risus.</p>",
+        "recipe_description_az": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros. Nullam nec pharetra risus.</p>",
+        "recipe_description_en": "",
+        "recipe_photo": "recipes/2022/01/16/food2.jpg",
+        "recipe_photo_1": "recipes/2022/01/16/photo_IJyyVrN.jpg",
+        "recipe_photo_2": "recipes/2022/01/16/photo_Z5DPyyH.jpg",
+        "recipe_photo_3": "recipes/2022/01/16/photo_oX72fjo.jpg",
+        "recipe_photo_4": "recipes/2022/01/16/photo_WDDQqdj.jpg",
+        "recipe_photo_5": "recipes/2022/01/16/photo_vFAayXK.jpg",
+        "is_featured": false,
+        "created_date": "2022-01-16T15:34:24.412Z"
+    }
+},
+{
+    "model": "recipes.recipe",
+    "pk": 3,
+    "fields": {
+        "recipe_title_ru": "Lorem Ipsum B",
+        "recipe_title_az": "Lorem Ipsum B",
+        "recipe_title_en": "",
+        "recipe_brief_ru": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultricb",
+        "recipe_brief_az": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultricb",
+        "recipe_brief_en": "",
+        "recipe_description_ru": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros. Nullam nec pharetra risus.</p>",
+        "recipe_description_az": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros. Nullam nec pharetra risus.</p>",
+        "recipe_description_en": "",
+        "recipe_photo": "recipes/2022/01/16/food3.jpg",
+        "recipe_photo_1": "recipes/2022/01/16/photo_mbpmsoR.jpg",
+        "recipe_photo_2": "recipes/2022/01/16/photo_X17GXGd.jpg",
+        "recipe_photo_3": "recipes/2022/01/16/photo_0RgJ9H5.jpg",
+        "recipe_photo_4": "recipes/2022/01/16/photo_N1WNBbe.jpg",
+        "recipe_photo_5": "recipes/2022/01/16/photo_fOxBsNM.jpg",
+        "is_featured": false,
+        "created_date": "2022-01-16T15:37:22.022Z"
+    }
+},
+{
+    "model": "recipes.recipe",
+    "pk": 4,
+    "fields": {
+        "recipe_title_ru": "Lorem Ipsum C",
+        "recipe_title_az": "Lorem Ipsum C",
+        "recipe_title_en": "",
+        "recipe_brief_ru": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultricc",
+        "recipe_brief_az": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultricc",
+        "recipe_brief_en": "",
+        "recipe_description_ru": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros. Nullam nec pharetra risus.</p>",
+        "recipe_description_az": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros. Nullam nec pharetra risus.</p>",
+        "recipe_description_en": "",
+        "recipe_photo": "recipes/2022/01/16/food4.jpg",
+        "recipe_photo_1": "recipes/2022/01/16/photo_ouPfzKQ.jpg",
+        "recipe_photo_2": "recipes/2022/01/16/photo_eXxxJrk.jpg",
+        "recipe_photo_3": "recipes/2022/01/16/photo_7m6A2Vc.jpg",
+        "recipe_photo_4": "recipes/2022/01/16/photo_uFAjOt1.jpg",
+        "recipe_photo_5": "recipes/2022/01/16/photo_EfdtK9z.jpg",
+        "is_featured": false,
+        "created_date": "2022-01-16T15:38:37.005Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "first_name_ru": "Айдан",
+        "first_name_az": "Aydan",
+        "first_name_en": "",
+        "last_name_ru": "Алиева",
+        "last_name_az": "Əliyeva",
+        "last_name_en": "",
+        "designation_ru": "Lorem Ipsum",
+        "designation_az": "Lorem Ipsum",
+        "designation_en": "",
+        "about_ru": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros.&nbsp;</p>",
+        "about_az": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros.&nbsp;</p>",
+        "about_en": "",
+        "photo": "team/2022/01/16/aydan.jpg",
+        "created_date": "2022-01-16T15:09:47.199Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name_ru": "Тамилла",
+        "first_name_az": "Tamilla",
+        "first_name_en": "",
+        "last_name_ru": "Мамедова",
+        "last_name_az": "Məmmədova",
+        "last_name_en": "",
+        "designation_ru": "Lorem Ipsum",
+        "designation_az": "Lorem Ipsum",
+        "designation_en": "",
+        "about_ru": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros.&nbsp;</p>",
+        "about_az": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros.&nbsp;</p>",
+        "about_en": "",
+        "photo": "team/2022/01/16/tamila.jpg",
+        "created_date": "2022-01-16T15:22:11.092Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name_ru": "Хаяла",
+        "first_name_az": "Xəyalə",
+        "first_name_en": "",
+        "last_name_ru": "Гулиева",
+        "last_name_az": "Quliyeva",
+        "last_name_en": "",
+        "designation_ru": "Lorem Ipsum",
+        "designation_az": "Lorem Ipsum",
+        "designation_en": "",
+        "about_ru": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros.</p>",
+        "about_az": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros.</p>",
+        "about_en": "",
+        "photo": "team/2022/01/16/xayala.jpg",
+        "created_date": "2022-01-16T15:24:28.853Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name_ru": "Сергей",
+        "first_name_az": "Sergey",
+        "first_name_en": "",
+        "last_name_ru": "Маслов",
+        "last_name_az": "Maslov",
+        "last_name_en": "",
+        "designation_ru": "Lorem Ipsum",
+        "designation_az": "Lorem Ipsum",
+        "designation_en": "",
+        "about_ru": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros.</p>",
+        "about_az": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu lacus a lacus efficitur suscipit. Vestibulum ante ante, fermentum at pellentesque sit amet, cursus sit amet nisl. Vestibulum in ultrices dolor, nec vehicula eros.</p>",
+        "about_en": "",
+        "photo": "team/2022/01/16/sergey.jpg",
+        "created_date": "2022-01-16T15:25:18.778Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$hOCEijf0lobEbv2q9buxTA$8NAxbedpBCZPOSmIjbmBTT73HzvWP37lBfEtSdSboSI=",
+        "last_login": "2022-01-16T15:08:10.737Z",
+        "is_superuser": true,
+        "username": "eminasgarov",
+        "first_name": "",
+        "last_name": "",
+        "email": "asgarov.emin@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-01-16T15:07:45.571Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "y4llmghncvfcay9x6gjs4rol6j02smvm",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQAP-FsyFZytOjd7-BsLsgVUOT0p6M_64kPeh1ZjIvEdO-1bj3vMaZxVmAOP0yTPTIbQi-p3ZbJC1tW2eUI5GH7fK6cH5ejvZvUFOvY8sFPBVCb7y2jjIrT36CyTirGZwyX22VcsEgQXDGZdCIoYSidSoo3h_V4DeQ:1n978c:NuJZ-ak3WT1Ll-NWQAVJhINEY69aFbxSMhbRKjVKFOs",
+        "expire_date": "2022-01-30T15:08:10.739Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-01-16T15:09:47.201Z",
+        "user": [
+            "eminasgarov"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Айдан",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-01-16T15:22:11.094Z",
+        "user": [
+            "eminasgarov"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Тамилла",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-01-16T15:24:28.855Z",
+        "user": [
+            "eminasgarov"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Хаяла",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-01-16T15:25:18.780Z",
+        "user": [
+            "eminasgarov"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Сергей",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-01-16T15:32:40.778Z",
+        "user": [
+            "eminasgarov"
+        ],
+        "content_type": [
+            "recipes",
+            "recipe"
+        ],
+        "object_id": "1",
+        "object_repr": "Lorem Ipsum",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-01-16T15:34:24.413Z",
+        "user": [
+            "eminasgarov"
+        ],
+        "content_type": [
+            "recipes",
+            "recipe"
+        ],
+        "object_id": "2",
+        "object_repr": "Lorem Ipsum A",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-01-16T15:35:34.023Z",
+        "user": [
+            "eminasgarov"
+        ],
+        "content_type": [
+            "recipes",
+            "recipe"
+        ],
+        "object_id": "2",
+        "object_repr": "Lorem Ipsum A",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Recipe brief ru\", \"Recipe brief az\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-01-16T15:37:22.023Z",
+        "user": [
+            "eminasgarov"
+        ],
+        "content_type": [
+            "recipes",
+            "recipe"
+        ],
+        "object_id": "3",
+        "object_repr": "Lorem Ipsum B",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-01-16T15:38:37.006Z",
+        "user": [
+            "eminasgarov"
+        ],
+        "content_type": [
+            "recipes",
+            "recipe"
+        ],
+        "object_id": "4",
+        "object_repr": "Lorem Ipsum D",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-01-16T15:39:20.541Z",
+        "user": [
+            "eminasgarov"
+        ],
+        "content_type": [
+            "recipes",
+            "recipe"
+        ],
+        "object_id": "4",
+        "object_repr": "Lorem Ipsum C",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Recipe title ru\", \"Recipe title az\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-01-16T15:43:22.612Z",
+        "user": [
+            "eminasgarov"
+        ],
+        "content_type": [
+            "blogs",
+            "blog"
+        ],
+        "object_id": "1",
+        "object_repr": "Lorem Ipsum",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-01-16T15:44:49.765Z",
+        "user": [
+            "eminasgarov"
+        ],
+        "content_type": [
+            "blogs",
+            "blog"
+        ],
+        "object_id": "2",
+        "object_repr": "Lorem Ipsum A",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-01-16T15:45:54.899Z",
+        "user": [
+            "eminasgarov"
+        ],
+        "content_type": [
+            "blogs",
+            "blog"
+        ],
+        "object_id": "3",
+        "object_repr": "Lorem Ipsum B",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-01-16T15:46:37.710Z",
+        "user": [
+            "eminasgarov"
+        ],
+        "content_type": [
+            "blogs",
+            "blog"
+        ],
+        "object_id": "4",
+        "object_repr": "Lorem Ipsum C",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
