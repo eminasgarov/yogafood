@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 import os.path
+import dj_database_url
 from pathlib import Path
 
 
@@ -54,6 +55,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'yogafood.urls'
@@ -80,16 +82,16 @@ WSGI_APPLICATION = 'yogafood.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'yogafood_db',
-        'USER': 'postgres',
-        'PASSWORD': 'Emishok77',
-        'HOST': 'localhost',
-    }
-}
-# DATABASES = {'default': dj_database_url.config(default='postgres://postgres:Emishok77@localhost/yogafood_db')}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'yogafood_db',
+#         'USER': 'postgres',
+#         'PASSWORD': 'Emishok77',
+#         'HOST': 'localhost',
+#     }
+# }
+DATABASES = {'default': dj_database_url.config(default='postgres://postgres:Emishok77@localhost/yogafood_db')}
 
 
 # Password validation
@@ -155,3 +157,6 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'asgarov.emin@gmail.com'
 EMAIL_HOST_PASSWORD = 'Emishok77'
 EMAIL_USE_TLS = True
+
+#Whitenoise settings
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
