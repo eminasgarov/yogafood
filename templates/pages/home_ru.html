@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+                       
+        <div class="page-title wb">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-5 col-sm-4 col-xs-12">
+                        <h5><i class="fa fa-sitemap bg-red"></i> Главная</h5>
+                    </div><!-- end col -->
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                        <i class="bg-red">RU</i>
+                        <a href="{% url 'home_az' %}"><i class="bg-red">AZ</i></a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs-down hidden-sm-down">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">Главная</li>
+                        </ol>
+                    </div><!-- end col -->                  
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end page-title -->
+
+        <section class="section lb text-muted">
+            <div class="container">
+
+                {% comment %} RECIPES SECTION {% endcomment %}
+                <h5>Последние рецепты</h5>
+                <div class="row grid-style">
+                    {% for recipe in recent_recipes_ru %}
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                            <div class="blog-box">
+                                <div class="post-media">
+                                    <a href="{% url 'single_recipe_ru' recipe.id %}" title="">    
+                                        <img src="{{ recipe.recipe_photo.url }}" alt="" class="img-fluid">
+                                        <div class="hovereffect"></div>
+                                    </a>
+                                </div><!-- end media -->
+
+                                <div class="blog-meta big-meta">
+                                    <h4><a href="{% url 'single_recipe_ru' recipe.id %}" title="">{{ recipe.recipe_title_ru }}</a></h4>
+                                    <p>{{ recipe.recipe_brief_ru }}</p>
+                                    <small><a href="{% url 'single_recipe_ru' recipe.id %}" title="">{{ recipe.created_date |date:"M d, Y" }}</a></small>
+                                    <small><a href="{% url 'about_ru' %}" title="">by YogaFood Team</a></small>
+                                </div><!-- end meta -->
+                            </div><!-- end blog-box -->
+                        </div><!-- end col -->  
+                    {% endfor %}
+                </div><!-- end row -->
+                
+                <hr class="invis">
+
+                {% comment %} BLOG SECTION {% endcomment %}
+                <h5>Последние статьи</h5>
+                <div class="row grid-style">
+                    {% for blog in recent_blogs_ru %}
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                            <div class="blog-box">
+                                <div class="post-media">
+                                    <a href="{% url 'single_blog_ru' blog.id %}" title="">
+                                        <img src="{{ blog.blog_photo.url }}" alt="" class="img-fluid">
+                                        <div class="hovereffect"></div>
+                                    </a>
+                                </div><!-- end media -->
+
+                                <div class="blog-meta big-meta">
+                                    <h4><a href="{% url 'single_blog_ru' blog.id %}" title="">{{ blog.blog_title_ru }}</a></h4>
+                                    <p>{{ blog.blog_brief_ru }}</p>
+                                    <small><a href="{% url 'single_blog_ru' blog.id %}" title="">{{ blog.created_date |date:"M d, Y" }}</a></small>
+                                    <small><a href="{% url 'about_ru' %}" title="">by YogaFood Team</a></small>
+                                </div><!-- end meta -->
+                            </div><!-- end blog-box -->
+                        </div><!-- end col -->
+                    {% endfor %}
+                </div><!-- end row -->
+
+                <hr class="invis3">
+                
+            </div><!-- end container -->
+        </section><!-- end album -->
+
+{% endblock  %}

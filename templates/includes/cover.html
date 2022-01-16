@@ -1,0 +1,23 @@
+{% load static %}
+
+    <div id="wrapper">
+        <section id="cta" class="jumbotron text-center">
+            {% if request.path == '/' %}
+                <div class="container">
+                    <a href="{% url 'home_ru' %}"><img src="{% static 'img/logo_cover.png' %}" alt="" class="img-fluid" style="-webkit-filter: drop-shadow(1px 5px 20px #fff); filter: drop-shadow(1px 5px 20px #fff);"></a>
+                    <p style="font-size:large !important; font-style: italic !important; font-family: 'FontAwesome' !important; text-shadow: 5px 5px 20px white !important;">"Too many people are hungry not because there is a dearth of food. It is because there is a dearth of love and care in human hearts." -Sadhguru.</p>
+                </div>
+            {% endif %}
+            {% if 'ru/' in request.path %}
+                <div class="container">
+                    <a href="{% url 'home_ru' %}"><img src="{% static 'img/logo_cover.png' %}" alt="" class="img-fluid" style="-webkit-filter: drop-shadow(1px 5px 20px #fff); filter: drop-shadow(1px 5px 20px #fff);"></a>
+                    <p style="font-size:large !important; font-style: italic !important; font-family: 'FontAwesome' !important; text-shadow: 5px 5px 20px white !important;">"Too many people are hungry not because there is a dearth of food. It is because there is a dearth of love and care in human hearts." -Sadhguru.</p>
+                </div>
+            {% endif %}
+            {% if 'az/' in request.path %}
+                <div class="container">
+                    <a href="{% url 'home_az' %}"><img src="{% static 'img/logo_cover.png' %}" alt="" class="img-fluid" style="-webkit-filter: drop-shadow(1px 5px 20px #fff); filter: drop-shadow(1px 5px 20px #fff);"></a>
+                    <p style="font-size:large !important; font-style: italic !important; font-family: 'FontAwesome' !important; text-shadow: 5px 5px 20px white !important;">"Too many people are hungry not because there is a dearth of food. It is because there is a dearth of love and care in human hearts." -Sadhguru.</p>
+                </div>
+            {% endif %}
+        </section>

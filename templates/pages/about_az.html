@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% load humanize %}
+
+{% block content %}
+    <div class="page-title wb">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-5 col-sm-4 col-xs-12">
+                    <h5><i class="fa fa-users bg-red"></i> Haqqımızda</h5>
+                </div><!-- end col -->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                    <a href="{% url 'about_ru' %}"><i class="bg-red">RU</i></a>
+                    <i class="bg-red">AZ</i>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs-down hidden-sm-down">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="{% url 'home_az' %}">Əsas səhifə</a></li>
+                        <li class="breadcrumb-item active">Haqqımızda</li>
+                    </ol>
+                </div><!-- end col -->                  
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end page-title -->
+
+
+    <section class="section lb text-muted">
+        <div class="container">
+            <div class="page-wrapper">
+                <div class="blog-box row" style="margin-bottom: 15px !important;">
+                <h5>Lorem Ipsum</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta lectus lorem, eget feugiat massa venenatis in. Nam laoreet turpis mauris, sed ornare urna placerat quis. Etiam et bibendum odio. Quisque porttitor laoreet mauris, et pretium urna. Nam a orci ut lacus auctor imperdiet nec non urna. Aliquam pellentesque id justo sit amet luctus. Integer odio leo, egestas ut lacinia a, commodo non ex. Donec nec lectus lectus.
+
+                    <br>Vestibulum placerat laoreet justo. Maecenas tempus diam diam, a congue ligula venenatis sit amet. Sed auctor nisl ut efficitur ultricies. Proin nisl libero, dapibus at ornare eu, condimentum in lectus. Phasellus eu semper nibh. Suspendisse ac vulputate augue, a fringilla elit. Curabitur volutpat semper nisi quis molestie. Fusce egestas lacus erat, ac semper dui condimentum at. Suspendisse a dui blandit ligula vehicula bibendum in eget lacus. Nunc quis turpis suscipit felis finibus pulvinar. Ut vel pharetra elit.</p>
+                </div>
+            </div>
+
+            <div class="row grid-style">
+
+                {% for member in members %}
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flip-team">
+                                <div class="front-A x-100">
+                                    <div class="card-5 profile-card-5 bor-no" data-image-src="{{ member.photo.url }}">
+                                        <div class="text-content">
+                                            <h3>{{ member.first_name_az }} {{ member.last_name_az }}</h3>
+                                            <p>{{ member.designation_ru }}</p>
+                                        </div>
+                                        <div class="filter"></div>
+                                    </div>
+                                </div>
+                                <div class="back-b x-100">
+                                    <div class="card-5 bor-no">
+                                        <h4 class="card-title">{{ member.first_name_az }} {{ member.last_name_az }}</h4>
+                                        <p>{{ member.designation_az }}</p>
+                                        <p class="card-text">{{ member.about_az | safe }}</p>
+                                    </div>
+                                </div>
+                                
+                            </div> 
+                        </div>
+                    </div>
+                {% endfor %}
+
+            </div>
+
+        </div>
+    </section>
+<script>
+    var list = document.getElementsByClassName('profile-card-5');
+
+    for (var i = 0; i < list.length; i++) {
+    var src = list[i].getAttribute('data-image-src');
+    list[i].style.backgroundImage="url('" + src + "')";
+}
+</script>
+
+{% endblock  %}
